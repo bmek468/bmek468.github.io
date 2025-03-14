@@ -1,0 +1,51 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar styles */
+#navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4e4c4c;
+    transition: background-color 0.3s ease;
+}
+
+#navbar a:hover {
+    background-color: #cac0c0;
+}
+
+/* Project container */
+#project-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling for project iframe */
+iframe {
+    border: none;
+    border-radius: 10px;
+}
